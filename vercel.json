@@ -16,7 +16,7 @@
         },
         {
             "src": "/(.*)",
-            "dest": "medicalinfo/awsgi.py"
+            "dest": "medicalinfo/wsgi.py"
         }
     ]
 }
