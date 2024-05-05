@@ -6,7 +6,7 @@
     },
     {
         "src": "build_files.sh",
-        "use": "@vercel/static-build",
+        "use": "python manage.py collectstatic",
         "config": { "distDir": "staticfiles_build" }
     }],
     "routes": [
